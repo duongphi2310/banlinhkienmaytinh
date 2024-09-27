@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/titleOrderDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chi tiết đơn hàng 23"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/orange" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/titlediachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ nhận hàng"
+        android:layout_below="@id/titleOrderDetail"
+        android:drawableLeft="@drawable/location"
+        android:textSize="18sp"
+        android:textColor="#111111" />
+
+    <TextView
+        android:id="@+id/tenOrderDetail"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nguyễn Văn A"
+        android:layout_below="@id/titlediachi"
+        android:textSize="18sp"
+        android:textColor="#111111" />
+
+    <TextView
+        android:id="@+id/sodienthoaiOrderDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="0123456789"
+        android:layout_below="@id/tenOrderDetail"
+        android:textSize="18sp"
+        android:textColor="#111111" />
+
+    <TextView
+        android:id="@+id/diachiOrderDetail"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123 Đường ABC, Quận 1, TP. HCM"
+        android:layout_below="@id/sodienthoaiOrderDetail"
+        android:textSize="18sp"
+        android:textColor="#111111" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleviewOrderDetail"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnCancelOrderDetail"
+        android:layout_below="@id/diachiOrderDetail" />
+
+    <Button
+        android:id="@+id/btnCancelOrderDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_bg_rounded"
+        android:padding="10dp"
+        android:text="Đóng"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

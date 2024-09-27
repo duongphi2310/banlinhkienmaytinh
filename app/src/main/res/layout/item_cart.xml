@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/background_item_cart" >
+
+    <CheckBox
+        android:id="@+id/item_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-5dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
+
+    <ImageView
+        android:id="@+id/image_detail_cart"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/item_checkbox"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/name_detail_cart"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@id/image_detail_cart"
+        android:layout_alignParentRight="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="SẢN PHẨM"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/giamSoLuong"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/name_detail_cart"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/image_detail_cart"
+        android:inputType="number"
+        android:background="@drawable/minus"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/quantity_detail_cart"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/name_detail_cart"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/giamSoLuong"
+        android:background="@drawable/edit_text_bg"
+        android:inputType="number"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/tangSoLuong"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/name_detail_cart"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/plus"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/quantity_detail_cart"
+        android:inputType="number"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/unitMoneyItemCartPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_below="@id/name_detail_cart"
+        android:layout_toRightOf="@id/price_deatail_cart"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentEnd="true"
+        android:text="VNĐ"
+        android:textColor="@color/orange"
+        android:textSize="11sp" />
+
+
+    <TextView
+        android:id="@+id/price_deatail_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_detail_cart"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="8dp"
+        android:text="0000000"
+        android:textColor="@color/orange"
+        android:textSize="19sp" />
+    <TextView
+        android:id="@+id/unitMoneyItemCartSubtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_below="@id/price_deatail_cart"
+        android:layout_toRightOf="@id/subtotal_detail_cart"
+        android:text="VNĐ"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/orange"
+        android:layout_alignParentEnd="true"
+        android:textSize="11.5sp" />
+    <TextView
+        android:id="@+id/subtotal_detail_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price_deatail_cart"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="288dp"
+        android:text="0000000"
+        android:textColor="@color/orange"
+        android:textSize="20sp" />
+
+</RelativeLayout>

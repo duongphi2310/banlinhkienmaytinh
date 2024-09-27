@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="your_array_resource">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <!-- Thêm các item khác nếu cần -->
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+{
+  "environment": "TEST",
+  "apiVersion": 2,
+  "apiVersionMinor": 0,
+  "allowedPaymentMethods": [
+    {
+      "type": "CARD",
+      "parameters": {
+        "allowedAuthMethods": ["PAN_ONLY", "CRYPTOGRAM_3DS"],
+        "allowedCardNetworks": ["MASTERCARD", "VISA"]
+      },
+      "tokenizationSpecification": {
+        "type": "PAYMENT_GATEWAY",
+        "parameters": {
+          "gateway": "stripe",
+          "gatewayMerchantId": "pk_test_51PcflLDqkgA5L8ed8vCq8Pj1Z3waUGTVetWswtpvEXEcbRny2RcwF2Xa6xWQ9bt6LSlZcSj9JicTq0YoVVZ9XMYn00nOp4Jx0z"
+        }
+      }
+    }
+  ],
+  "merchantInfo": {
+    "merchantName": "Test",
+    "merchantId": "BCR2DN4T27ZOH2BO"
+  }
+}

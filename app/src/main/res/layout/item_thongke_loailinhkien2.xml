@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    xmlns:tools="http://schemas.android.com/tools">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:id="@+id/thongke2_loailinhkien"
+            android:text="LOẠI LINH KIỆN"
+            android:textStyle="bold"
+            android:textColor="#D900FF"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/thongke2_tongtien"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="sans-serif-light"
+            android:textAlignment="textEnd"
+            android:textSize="20sp"
+            android:textColor="#FFBF00"
+            android:textStyle="bold"
+            tools:text="0" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

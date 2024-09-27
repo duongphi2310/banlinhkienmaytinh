@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/background_item_product">
+
+    <TextView
+        android:id="@+id/tvMaHoaDon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvMaHoaDon"
+        android:text="USERNAME:"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mahoadon"
+        android:layout_alignParentRight="true"
+        android:text="USERNAME"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvNgayLap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvUsername"
+        android:text="NGÀY MUA:"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/tvTongTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNgayLap"
+        android:text="TỔNG TIỀN:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/mahoadon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Mã hoá đơn"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ngaylap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_alignParentRight="true"
+        android:text="Ngày lập"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/unitTotalOrderOfCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="đ"
+        android:layout_alignParentRight="true"
+        android:textSize="15.5sp"
+        android:layout_below="@id/tvNgayLap"
+        android:layout_marginTop="5dp" />
+    
+    <TextView
+        android:id="@+id/tongtien"
+        android:layout_marginLeft="315dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNgayLap"
+        android:layout_toLeftOf="@id/unitTotalOrderOfCustomer"
+        android:text="......"
+        android:textSize="20sp" />
+</RelativeLayout>

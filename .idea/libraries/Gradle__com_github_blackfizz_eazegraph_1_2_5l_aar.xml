@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.blackfizz:eazegraph:1.2.5l@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/Do_An_AndroidQUang/Do_An_Android/.gradle/8.2/caches/transforms-3/20a7a363853b303d2861fa45f3db38f7/transformed/eazegraph-1.2.5l/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Downloads/Do_An_AndroidQUang/Do_An_Android/.gradle/8.2/caches/transforms-3/20a7a363853b303d2861fa45f3db38f7/transformed/eazegraph-1.2.5l/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/Do_An_AndroidQUang/Do_An_Android/.gradle/8.2/caches/transforms-3/20a7a363853b303d2861fa45f3db38f7/transformed/eazegraph-1.2.5l/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/Do_An_AndroidQUang/Do_An_Android/.gradle/8.2/caches/modules-2/files-2.1/com.github.blackfizz/eazegraph/1.2.5l/80d69bd83b9a7623e38d072746f448a4f6d83b17/eazegraph-1.2.5l-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

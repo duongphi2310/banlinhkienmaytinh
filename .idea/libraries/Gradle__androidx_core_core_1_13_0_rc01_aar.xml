@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.core:core:1.13.0-rc01@aar" external-system-id="GRADLE">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/Downloads/Do_An_AndroidQUang/Do_An_Android/.gradle/8.2/caches/transforms-3/4ca292298b9941621eb0796c74bbff38/transformed/core-1.13.0-rc01/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/Do_An_AndroidQUang/Do_An_Android/.gradle/8.2/caches/transforms-3/4ca292298b9941621eb0796c74bbff38/transformed/core-1.13.0-rc01/res" />
+      <root url="file://$USER_HOME$/Downloads/Do_An_AndroidQUang/Do_An_Android/.gradle/8.2/caches/transforms-3/4ca292298b9941621eb0796c74bbff38/transformed/core-1.13.0-rc01/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/Downloads/Do_An_AndroidQUang/Do_An_Android/.gradle/8.2/caches/transforms-3/4ca292298b9941621eb0796c74bbff38/transformed/core-1.13.0-rc01/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/Do_An_AndroidQUang/Do_An_Android/.gradle/8.2/caches/modules-2/files-2.1/androidx.core/core/1.13.0-rc01/9ae580505557c829bed91310494b3ccd0a386dfd/core-1.13.0-rc01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_corner"
+    android:padding="2dp">
+    <TextView
+        android:id="@+id/categoryCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:paddingEnd="8dp"
+        android:text="MÃ:"
+        android:textSize="18dp"
+        android:textColor="#ee4d2d"
+        android:layout_marginTop="13dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/categoryName"
+        android:layout_width="match_parent"
+        android:layout_marginTop="13dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_weight="1"
+        android:text="Tên linh kiện"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/categoryCode"
+        app:layout_constraintTop_toTopOf="@id/categoryCode" />
+
+    <ImageView
+        android:id="@+id/categoryImage"
+        android:layout_width="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"/>
+</LinearLayout>

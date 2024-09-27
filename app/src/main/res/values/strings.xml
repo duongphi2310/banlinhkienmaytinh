@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">LINH KIỆN MÁY TÍNH</string>
+    <string name="hello_blank_fragment">TEST</string>
+    <string name="text_underlined"><u><i>Quên mật khẩu ?</i></u></string>
+
+    <string-array name="options_array">
+        <item>TẤT CẢ</item>
+        <item>CHỌN NGÀY</item>
+    </string-array>
+
+    <string-array name="provinces_array">
+        <item>Tỉnh 1</item>
+        <item>Tỉnh 2</item>
+    </string-array>
+
+    <string-array name="districts_tinh_1_array">
+        <item>Huyện 1</item>
+        <item>Huyện 2</item>
+    </string-array>
+
+    <string-array name="districts_tinh_2_array">
+        <item>Huyện 3</item>
+        <item>Huyện 4</item>
+    </string-array>
+
+    <string-array name="wards_huyen_3_array">
+        <item>Xã 5</item>
+        <item>Xã 6</item>
+    </string-array>
+
+    <string-array name="wards_huyen_4_array">
+        <item>Xã 7</item>
+        <item>Xã 8</item>
+    </string-array>
+</resources>
