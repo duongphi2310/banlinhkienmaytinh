@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteRule assets/(.+)$ assets/$1 [L,NC]
+
+
+RewriteRule ^api/(.*) api/$1 [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.+)$ index.php?url=$1 
